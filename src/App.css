@@ -25,7 +25,11 @@
 span {
   color: gray;
 }
+
 p a {
   margin: 5px;
+}
 
+p img {
+  width: 80px;
 }
