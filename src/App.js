@@ -3,6 +3,7 @@ import zce from './zce.jpg';
 import zcpe from './zcpe.jpg';
 import sf4 from './sf4.png';
 import sf5 from './sf5.png';
+import sf6 from './sf6.png';
 import "@fontsource/roboto";
 import './App.css';
 
@@ -13,6 +14,10 @@ function App() {
         <h1 className="text-white space-bottom-medium">Krzysztof Kardasz</h1>
         <span>Senior Backend Developer</span>
           <p>
+              <a href="https://connect.symfony.com/profile/kardasz">
+                  <img alt="Symfony 6 Certified Developer" src={sf6 } />
+              </a>
+
               <a href="https://connect.symfony.com/profile/kardasz">
                   <img alt="Symfony 5 Certified Developer" src={sf5 } />
               </a>
